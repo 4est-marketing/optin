@@ -72,6 +72,7 @@ export default function MysteryShopper() {
                 { name: "nome", label: "Nome completo" },
                 { name: "cidade", label: "Cidade" },
                 { name: "whatsapp", label: "WhatsApp", type: "tel" },
+                { name: "email", label: "E-mail", type: "email" },
               ]}
               submitLabel="Quero ser cliente oculto"
               successMessage="Recebemos seu cadastro! Assim que abrirmos vagas na sua região, avisaremos pelo WhatsApp."
