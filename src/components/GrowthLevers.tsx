@@ -1,4 +1,13 @@
-import { UtensilsCrossed, Headset, ListChecks, Gift, Star, Building2 } from "lucide-react";
+import {
+  UtensilsCrossed,
+  Headset,
+  ListChecks,
+  Gift,
+  Star,
+  Building2,
+  Ticket,
+  UsersRound,
+} from "lucide-react";
 
 const LEVERS = [
   {
@@ -31,6 +40,16 @@ const LEVERS = [
     title: "Avaliação premiada",
     text: "Ofereça um voucher de benefício para estimular a participação e fidelizar quem responde.",
   },
+  {
+    icon: Ticket,
+    title: "Sorteio",
+    text: "Quem avalia ganha um número para concorrer a prêmios. Mais participação, mais dados e mais engajamento.",
+  },
+  {
+    icon: UsersRound,
+    title: "Criação de comunidade",
+    text: "Leve quem avaliou para o seu canal, grupo ou comunidade no WhatsApp e mantenha o relacionamento ativo.",
+  },
 ];
 
 export default function GrowthLevers() {
@@ -50,7 +69,7 @@ export default function GrowthLevers() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {LEVERS.map(({ icon: Icon, title, text }) => (
             <div
               key={title}
