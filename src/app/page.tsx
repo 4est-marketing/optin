@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import HowItWorks from "@/components/HowItWorks";
 import GrowthLevers from "@/components/GrowthLevers";
-import MysteryShopper from "@/components/MysteryShopper";
 import Pillars from "@/components/Pillars";
 import Authority from "@/components/Authority";
 import FinalCta from "@/components/FinalCta";
@@ -18,7 +17,6 @@ export default function Home() {
         <Problem />
         <HowItWorks />
         <GrowthLevers />
-        <MysteryShopper />
         <Pillars />
         <Authority />
         <FinalCta />
