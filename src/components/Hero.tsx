@@ -28,9 +28,10 @@ export default function Hero() {
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-ink/75">
             A Optin cria, em minutos, campanhas de avaliação com QR code para o seu
-            varejo físico. Com o consentimento do cliente, você escuta, melhora a
-            experiência, ganha autoridade em avaliações públicas e constrói uma base
-            própria para ativar por e-mail, WhatsApp e tráfego pago.
+            negócio físico. Você escuta todos os clientes, resolve o que deu errado
+            antes que vire reclamação pública, conquista avaliações autênticas e
+            constrói, com consentimento, um público próprio para falar por e-mail,
+            WhatsApp e anúncios.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -55,7 +56,7 @@ export default function Hero() {
             </span>
             <span className="inline-flex items-center gap-1.5">
               <CheckCircle2 size={16} className="text-brand-green-dark" />
-              Dados coletados com consentimento
+              Contatos só com consentimento
             </span>
             <span className="inline-flex items-center gap-1.5">
               <CheckCircle2 size={16} className="text-brand-green-dark" />
@@ -97,10 +98,10 @@ export default function Hero() {
               </div>
               <div className="flex items-center justify-between rounded-xl bg-brand-cream/70 px-4 py-3">
                 <span className="text-sm font-medium text-brand-ink/70">
-                  Redirecionado para
+                  Convite opcional
                 </span>
                 <span className="text-sm font-semibold text-brand-purple">
-                  Google · Ficha da loja
+                  Google
                 </span>
               </div>
               <div className="flex items-center justify-between rounded-xl bg-brand-green/10 px-4 py-3">
@@ -115,8 +116,8 @@ export default function Hero() {
           </div>
 
           <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-brand-purple px-5 py-4 text-white shadow-xl sm:block">
-            <p className="text-2xl font-bold leading-none">4.8</p>
-            <p className="mt-1 text-xs text-white/80">nota média gerada</p>
+            <p className="text-lg font-bold leading-none">Nota de atenção</p>
+            <p className="mt-1 text-xs text-white/80">→ empresa avisada</p>
           </div>
         </div>
       </div>

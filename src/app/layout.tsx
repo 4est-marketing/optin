@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { roobert } from "./fonts/roobert";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -13,7 +14,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Optin | Marketing como escuta",
   description:
-    "Optin transforma seu ponto de venda físico em um canal digital próprio. Colete avaliações com consentimento, gere autoridade online e construa públicos para e-mail, WhatsApp e tráfego pago.",
+    "Optin transforma seu ponto de venda físico em um canal digital próprio. Colete avaliações e construa, com consentimento, públicos para e-mail, WhatsApp e anúncios.",
   metadataBase: new URL("https://optin.promo"),
   openGraph: {
     title: "Optin | Marketing como escuta",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col bg-[var(--color-cream)] text-[var(--color-ink)]">
         {children}
+        <WhatsAppButton />
       </body>
       <GoogleAnalytics gaId="G-5Y5Z1R529Q" />
     </html>

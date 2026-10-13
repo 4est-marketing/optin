@@ -4,7 +4,7 @@ const PILLARS = [
   {
     icon: LayoutDashboard,
     title: "Plataforma (SaaS)",
-    text: "Crie campanhas, gere QR codes e artes, acompanhe respostas e resultados em um painel simples, pensado para o dia a dia do varejo.",
+    text: "Crie campanhas, gere QR codes e artes, veja respostas e resultados e acompanhe cada nota baixa até a resolução, em um painel simples, pensado para o dia a dia do varejo.",
   },
   {
     icon: Users,

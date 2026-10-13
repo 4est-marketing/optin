@@ -5,7 +5,6 @@ import {
   Gift,
   Star,
   Building2,
-  Ticket,
   UsersRound,
 } from "lucide-react";
 
@@ -13,7 +12,7 @@ const LEVERS = [
   {
     icon: Headset,
     title: "Atendimento",
-    text: "Meça a experiência em tempo real e corrija a rota antes que vire uma reclamação pública.",
+    text: "Meça a experiência em tempo real e resolva o que deu errado com quem viveu o problema, antes que vire reclamação pública.",
   },
   {
     icon: UtensilsCrossed,
@@ -33,22 +32,17 @@ const LEVERS = [
   {
     icon: Star,
     title: "Avaliação externa",
-    text: "Direcione clientes satisfeitos para Google, TripAdvisor e outras plataformas de reputação pública.",
+    text: "Convide todos os clientes, com qualquer nota, a compartilhar a experiência no Google, TripAdvisor e outras plataformas. Sempre opcional, como as plataformas exigem.",
   },
   {
     icon: Gift,
     title: "Avaliação premiada",
-    text: "Ofereça um voucher de benefício para estimular a participação e fidelizar quem responde.",
-  },
-  {
-    icon: Ticket,
-    title: "Sorteio",
-    text: "Quem avalia ganha um número para concorrer a prêmios. Mais participação, mais dados e mais engajamento.",
+    text: "Agradeça o tempo de quem responde com um voucher. O presente nunca depende da nota nem de avaliação pública.",
   },
   {
     icon: UsersRound,
     title: "Criação de comunidade",
-    text: "Leve quem avaliou para o seu canal, grupo ou comunidade no WhatsApp e mantenha o relacionamento ativo.",
+    text: "Ao final da avaliação, convide quem respondeu para seu canal ou grupo de WhatsApp, Instagram ou site, e mantenha o relacionamento ativo.",
   },
 ];
 

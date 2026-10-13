@@ -15,7 +15,7 @@ export default function Authority() {
           {[
             {
               stat: "100%",
-              label: "das avaliações coletadas com consentimento explícito",
+              label: "dos contatos com consentimento explícito",
             },
             {
               stat: "3 em 1",
@@ -23,7 +23,7 @@ export default function Authority() {
             },
             {
               stat: "Seu",
-              label: "público próprio, pronto para e-mail, WhatsApp e ads",
+              label: "público próprio, pronto para e-mail, WhatsApp e ads, com consentimento",
             },
           ].map((item) => (
             <div

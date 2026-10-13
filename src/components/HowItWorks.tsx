@@ -10,20 +10,20 @@ const STEPS = [
   {
     icon: QrCode,
     tag: "02",
-    title: "O cliente escaneia e dá o opt-in",
-    text: "Sem app, sem fricção. O cliente consente em compartilhar seus dados e responde à avaliação direto do celular — em segundos.",
+    title: "O cliente escaneia e responde",
+    text: "Sem app, sem fricção. O cliente responde direto do celular, em segundos, e, se quiser, deixa o contato para receber novidades.",
   },
   {
     icon: GitBranch,
     tag: "03",
-    title: "A resposta direciona o caminho certo",
-    text: "Avaliação interna para os sócios melhorarem a experiência, avaliação oculta para auditoria, ou redirecionamento para o Google e TripAdvisor quando a nota é boa.",
+    title: "Cada resposta recebe o cuidado certo",
+    text: "Nota baixa chega primeiro para você, com a chance de resolver: o cliente pode pedir contato na hora. E todos, com qualquer nota, recebem o convite opcional para compartilhar a experiência no Google, TripAdvisor ou para seguir seu Instagram.",
   },
   {
     icon: Send,
     tag: "04",
     title: "Você constrói um público próprio",
-    text: "Cada opt-in vira um contato seu — pronto para ativar por e-mail, WhatsApp ou públicos personalizados de tráfego pago.",
+    text: "Cada cliente que aceita receber novidades vira um contato seu, pronto para e-mail, WhatsApp e públicos personalizados de anúncios, sempre com consentimento.",
   },
 ];
 
