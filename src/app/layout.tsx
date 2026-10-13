@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { roobert } from "./fonts/roobert";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col bg-[var(--color-cream)] text-[var(--color-ink)]">
         {children}
+        <WhatsAppButton />
       </body>
       <GoogleAnalytics gaId="G-5Y5Z1R529Q" />
     </html>
